@@ -47,6 +47,15 @@
   gtag('config', 'UA-42796169-7');
 </script>
 
+// Configures custom dimension<Index> to use the custom parameter
+// 'dimension_name' for 'GA_MEASUREMENT_ID', where <Index> is a number
+// representing the index of the custom dimension.
+gtag('config', 'UA-42796169-7', {
+  'custom_map': {'dimension<Index>': 'producto_X'}
+});
+
+// Sends the custom dimension to Google Analytics.
+gtag('event', 'evento_prueba_dimensiones', {'producto_X': dimension_value});
 
 <body>
 
