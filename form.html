@@ -40,7 +40,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-42796169-7');
-</script>
+</script>;
+
+function Redirect() {
+               window.location = "Maslow Dashboard/index.html";
+            }
+});
 
 
 
@@ -139,7 +144,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<input href="thanks.html" class="nav-link" value="Send Message" >
+							<input href="thanks.html" onclick="Redirect()" class="nav-link" value="Send Message" >
 						</div>
 
 					</form>		
