@@ -80,19 +80,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 					<li class="nav-item active">
-<a href=”www.google.co.uk” onclick=”ga(‘send’, ‘event’, ‘Category’, ‘Action’, ‘Label’, ‘Value’);”>
+						<a  href="prueba.html"  class="nav-link" onClick=”ga(‘send’, ‘event’, {‘Contactar‘, ‘Click‘, ‘Form‘, ‘50‘});”>Promociones </a>
+					</li>
+					<li class="nav-item active">	
+						<a  href="afiliarse.html"  class="nav-link" class="ga-event" onClick=”ga(‘send’, ‘event’, { eventCategory: ‘Contact ‘, eventAction: ‘Submit’, eventLabel: ‘Contact Page Form’, eventValue: 50});”>Afiliarme </a>
+					</li>
 
-						<a  class="nav-link" href="https://www.youtube.com/watch?v=SlcRDQjnxio&utm_source=email%20marketing&utm_medium=email&utm_campaign=Promo%20Demo&utm_term=Video&utm_content=Analitica%20avanzada" onclick="gtag('event', 'reproducir', {'event_category': 'video', 'event_label': 'certificacion', 'value': '1'});>Home <span class="sr-only">(current) </span></a>
-					</li>
 					<li class="nav-item">
-						<a ga('send', 'Nav Bar', 'Kids', 'Youth'); class="nav-link" href="prueba.html" onclick="$('#fh5co-features').goTo();return false;">Features</a>
+						<a class="nav-link" href="afiliarse.html" class="ga-event" onClick=”ga(‘send’, ‘event’, { eventCategory: ‘Contactar ‘, eventAction: ‘Click’, eventLabel: ‘Form’, eventValue: 50});”>Features</a>
 					</li>
+
+
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Reviews</a>
+						<a href=”prueba.html” class="nav-link" onClick=”_gaq.push([‘_trackEvent’, ‘Event Category’, ‘Event Action’, ‘Event Label’]);”>Prueba Events</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"  onclick="$('#fh5co-download').goTo();return false;">Download</a>
-					</li>
+
+
 				</ul>
 				<div class="social-icons-header">
 					<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
