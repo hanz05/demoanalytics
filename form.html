@@ -40,9 +40,6 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-42796169-7');
-function Redirect() {
-               window.location = "thanks.html";
-            
 </script>
 
 
@@ -145,9 +142,8 @@ function Redirect() {
 							</div>
 						</div>
 						<div class="form-group">
-							<input href="thanks.html" onclick="Redirect()" class="nav-link" value="Send Message" >
+							<a  href="thanks.html"  class="nav-link" onClick=”ga(‘send’, ‘event’, {‘Contactar‘, ‘Click‘, ‘Form‘, ‘50‘});”>Enviar suscripción </a>
 						</div>
-
 					</form>		
 				</div>
 
