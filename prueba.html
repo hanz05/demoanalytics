@@ -70,17 +70,21 @@ gtag('set', 'dimension1', dimensionValue);
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a  href="prueba.html"  class="nav-link" onClick=”ga(‘send’, ‘event’, {‘Contactar‘, ‘Click‘, ‘Form‘, ‘50‘});”>Promociones </a>
 					</li>
+					<li class="nav-item active">	
+						<a  href="afiliarse.html"  class="nav-link" class="ga-event" onClick=”ga(‘send’, ‘event’, { eventCategory: ‘Contact ‘, eventAction: ‘Submit’, eventLabel: ‘Contact Page Form’, eventValue: 50});”>Afiliarme </a>
+					</li>
+
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">Features</a>
+						<a class="nav-link" href="afiliarse.html" class="ga-event" onClick=”ga(‘send’, ‘event’, { eventCategory: ‘Contactar ‘, eventAction: ‘Click’, eventLabel: ‘Form’, eventValue: 50});”>Features</a>
 					</li>
+
+
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Reviews</a>
+						<a href=”prueba.html”  class="nav-link" onClick=”_gaq.push([‘_trackEvent’, ‘Event Category’, ‘Event Action’, ‘Event Label’]);”>Prueba Events</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"  onclick="$('#fh5co-download').goTo();return false;">Download</a>
-					</li>
+
 				</ul>
 				<div class="social-icons-header">
 					<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
